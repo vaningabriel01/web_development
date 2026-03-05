@@ -1,0 +1,221 @@
+
+.header{
+    background-color: #ffffff;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6f0fa;
+    box-shadow: 0 2px 8px rgba(0, 119, 182, 0.08);
+    font-family: monospace;
+}
+
+.header-logo {
+    font-size: 22px;
+    font-weight: 600;
+    color: #9cb8d3; /* azul suave */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container do nav */
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Lista */
+.nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+/* Item individual */
+.nav-item {
+    position: relative;
+}
+
+/* Links */
+.nav-link {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3a3a3a;
+    padding: 6px 0;
+    transition: color 0.3s ease;
+}
+
+/* Efeito hover suave */
+.nav-link:hover {
+    color: #0a66c2;
+}
+
+/* Linha animada inferior */
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: #0a66c2;
+    transition: width 0.3s ease;
+}
+
+.nav-item:hover .nav-link::after {
+    width: 100%;
+}
+
+/* Estado ativo */
+.nav-link.active {
+    color: #0a66c2;
+    font-weight: 600;
+}
+.mycontainer{
+    width: 100%;
+    overflow:auto ;
+}
+
+.mycontainer div{
+    width: 30%;
+    display: inline-block;
+}
+
+.box{
+    width: 23%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    color: #333;
+}
+
+.box1{
+    background-color: #ffeead;
+}
+
+.box2{
+    background-color: #d4f1f4;
+}
+
+.box3{
+    background-color: #c3fbd8;
+}
+.box4{
+    background-color: #cfbf7f;
+}
+.box5{
+    background-color: #98bcc0;
+}
+.box6{
+    background-color: #85c09c;
+}
+.box7{
+    background-color: #998b54;
+}
+.box8{
+    background-color: #61878b;
+}   
+.box9{
+    background-color: #548667;
+}
+
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Quando o mouse passar */
+.card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Container do form */
+.form-container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 35px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(10, 102, 194, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Título */
+.form-title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0a66c2;
+    font-weight: 600;
+}
+
+/* Descrição */
+.form-description {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555;
+    font-size: 15px;
+}
+/* Grupo de campos */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+/* Label */
+.form-group label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #444;
+}
+
+/* Inputs e textarea */
+.form-input {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #d6e6f5;
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+/* Foco */
+.form-input:focus {
+    border-color: #0a66c2;
+    box-shadow: 0 0 0 3px rgba(10, 102, 194, 0.15);
+}
+
+/* Textarea ajuste */
+textarea.form-input {
+    resize: none;
+    min-height: 100px;
+}
+
+/* Botão */
+.form-button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #0a66c2;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover botão */
+.form-button:hover {
+    background-color: #084c94;
+}
+.footer{
+    background-color: #f8f8f8;
+    padding: 20px 40px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: #777;
+}
