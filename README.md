@@ -1,2 +1,2 @@
-# UNG
-all the projects from my university
+# web development
+all projects involving a web application
