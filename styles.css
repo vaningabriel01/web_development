@@ -1,0 +1,78 @@
+/* form */
+.form {
+    width: 300px;
+    margin: auto;
+}
+
+/* grupo de campo */
+.form-group {
+    margin-bottom: 15px;
+}
+/*nav class*/
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #1e1e2f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* Hover */
+.navbar-link:hover {
+  color: #fff;
+}
+
+
+/*sobre_classes*/
+
+.containerSobre {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.box {
+  flex: 1;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #c3c9b8;
+  
+  
+  border-radius: 15px; 
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.box:hover {
+  transform: translateY(-10px); /* levanta */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* sombra pra dar efeito */
+}
+
+.body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
